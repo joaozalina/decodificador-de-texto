@@ -1,0 +1,193 @@
+* {
+    background-color: #FFC47E;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 150%;
+}
+
+.logoAlura {
+
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 8%;
+
+}
+
+main {
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area {
+    
+    border: 2px solid #F28585;
+    border-radius: 15px;
+    color: #0A3871;
+    background-color: #FDF0D1;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color:#0A3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+
+.mensagem {
+    background: white;
+    /*background-image: url(/imagens/programaOracle.png);*/
+    background-repeat: no-repeat;
+    border: 2px solid #F28585;
+    border-radius: 37px;
+    color: #0A3871;
+    background-color: #FDF0D1;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    /*position: fixed;*/
+}
+
+.mensagem:focus {
+    
+    outline: none;
+
+}
+
+.info-caracteres__e__botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.informaçoes__caracteres {
+    color: #0A3871;
+}
+
+.botoes {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.btn-encriptar{
+    border: 2px solid #C3ACD0;
+    border-radius: 15px;
+    color: white;
+    background-color: #F94C10;
+}
+
+.btn-encriptar:hover {
+    background-color: #E8751A;
+}
+
+.btn-desencriptar{
+    border: 2px solid #F28585;
+    border-radius: 15px;
+    color: white;
+    background-color: #F94C10;
+
+}
+
+.btn-desencriptar:hover {
+    background-color: #E8751A;
+}
+
+
+.mensagem__e__bnt-copiar {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+/* This line below targets the "children (or itens)" in our --- >  'section class="mensagem__e__bnt-copiar' */
+
+/*.mensagem__e__bnt-copiar > * {
+    /*flex-basis: 50px;
+}*/
+
+.btn-copiar {
+    font-size: 29px;
+    margin-left: 320px;
+    border: 2px solid #F28585;
+    border-radius: 15px;
+    color: white;
+    background-color: #F94C10;
+}
+
+.btn-copiar:hover {
+    background-color: #E8751A;
+}
+
+
+.cabeçalho{
+    display: flex;
+    gap: 470px;
+}
+
+
+.pagesLinks {
+    display: flex;
+    gap: 27px;
+}
+
+
+.cabeçalho__links {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #643843;
+}
+
+
+.homeContent {
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+
+.programaOracle {
+    border: 2px solid #F28585;
+    border-radius: 37px;
+}
+
+
+.text-challenge {
+    font-family: "Inter", sans-serif;
+    font-size: 29px;
+    margin-top: 70px;
+    margin-right: 200px;
+    color: #481E14;
+}
+
+b {
+    color: red;
+}
+
+.rodaPe {
+    display: flex;
+    gap: 15px;
+    background-color: #FFC47E;
+    padding: 50px 0px 20px;
+    justify-content: center;
+}
+
+
+a {
+    color: #643843;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0A3871;
+}
+
+a:hover {
+    color: #49243E;
+}

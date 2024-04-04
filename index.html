@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador estilizado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@100..900&family=Josefin+Sans&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+
+        <img class="logoAlura" src="imagens/logoAlura.png" alt="logo da alura">
+
+        <nav class="pagesLinks">
+            <a class="cabeçalho__links" href="home.html" >Home</a>
+            <a class="cabeçalho__links" href="index.html" >Decodificador</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite o seu texto:"></textarea>
+
+            <div class="info-caracteres__e__botoes">
+                
+                <div class="informaçoes__caracteres">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+        
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            
+            </div>
+        
+        </section>
+    
+        <section class="mensagem__e__bnt-copiar">
+            <textarea type="pegar" value="" class="mensagem" cols="20" rows="8" id="mensagem__para__copiar"></textarea>
+            <button onclick="copiarMensagem()" class="btn-copiar">Copiar</button>
+        </section>
+    
+    </main>
+
+
+    <div class="rodaPe">
+
+        <a class="footer-link" href="https://linkedin.com/in/joão-batista-78178122b">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://github.com/joaozalina">GitHub</a>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
